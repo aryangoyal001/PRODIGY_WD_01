@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prodigy Infotech - Learn & Intern</title>
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <nav id="navbar">
+    <div class="logo">PRODIGY INFOTECH</div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#internships">Internships</a>
+      <a href="#features">Features</a>
+      <a href="#faq">FAQ</a>
+      <a href="#verify">Verify</a>
+        <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <h1>Welcome to Prodigy Infotech</h1>
+    <p>Empowering students with practical skills through top-notch learning and internship experiences.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Prodigy Infotech is a platform dedicated to bridging the gap between theoretical learning and real-world experience. Our programs help you gain practical exposure through guided internships and curated learning paths.</p>
+  </section>
+
+<section id="internships">
+  <h2>Our Internships</h2>
+  <div class="internship-grid">
+    <div class="internship-card">
+      <h3>Software Development Internship</h3>
+      <ul>
+        <li>Overview</li>
+        <li>Life Cycle</li>
+        <li>CLI Apps</li>
+        <li>GUI Apps</li>
+        <li>Web Scraping</li>
+      </ul>
+      <a href="#" class="apply-btn">Apply Now</a>
+    </div>
+
+    <div class="internship-card">
+      <h3>Web Development Internship</h3>
+      <ul>
+        <li>HTML, CSS, JS</li>
+        <li>Responsive Design</li>
+        <li>Frontend Frameworks</li>
+        <li>Backend Integration</li>
+        <li>Live Projects</li>
+      </ul>
+      <a href="#" class="apply-btn">Apply Now</a>
+    </div>
+
+    <div class="internship-card">
+      <h3>Data Science Internship</h3>
+      <ul>
+        <li>Python Programming</li>
+        <li>Data Analysis</li>
+        <li>Pandas & NumPy</li>
+        <li>Visualization</li>
+        <li>ML Projects</li>
+      </ul>
+      <a href="#" class="apply-btn">Apply Now</a>
+    </div>
+
+    <div class="internship-card">
+      <h3>Machine Learning Internship</h3>
+      <ul>
+        <li>Supervised & Unsupervised ML</li>
+        <li>Scikit-learn</li>
+        <li>Model Deployment</li>
+        <li>Real-world Cases</li>
+        <li>Capstone Projects</li>
+      </ul>
+      <a href="#" class="apply-btn">Apply Now</a>
+    </div>
+  </div>
+</section>
+
+  <section class="features-section" id="features">
+    <h2>Internship Features</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <h3>Real-World Projects</h3>
+        <p>Work on practical assignments and gain hands-on experience with real technologies used in the industry.</p>
+      </div>
+      <div class="feature">
+        <h3>Certified Training</h3>
+        <p>Receive industry-recognized certificates upon completion of your internship and tasks.</p>
+      </div>
+      <div class="feature">
+        <h3>Mentorship Support</h3>
+        <p>Get guidance and feedback from experienced mentors throughout your learning journey.</p>
+      </div>
+      <div class="feature">
+        <h3>Flexible Schedules</h3>
+        <p>Learn and work at your own pace with part-time and remote internship opportunities.</p>
+      </div>
+    </div>
+  </section>
+
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="features-grid">
+    <div class="feature">
+      <h3>Who can apply?</h3>
+      <p>Anyone with a passion to learn and basic knowledge of the domain can apply.</p>
+    </div>
+    <div class="feature">
+      <h3>Is the internship paid?</h3>
+      <p>No, but you will gain hands-on experience and certification which adds value to your resume.</p>
+    </div>
+    <div class="feature">
+      <h3>Will I get a certificate?</h3>
+      <p>Yes, certificates are provided upon successful completion of the internship.</p>
+    </div>
+    <div class="feature">
+      <h3>What is the duration?</h3>
+      <p>The duration varies between 4 to 6 weeks depending on the program.</p>
+    </div>
+  </div>
+</section>
+
+<section id="verify">
+  <h2>Verify Certificate</h2>
+  <div class="contact-container">
+    <form onsubmit="verifyCertificate(event)">
+      <input type="text" id="certID" placeholder="Enter Certificate ID" required />
+      <button type="submit">Verify</button>
+    </form>
+    <div class="contact-info" id="verificationResult">
+      <h3>Status</h3>
+      <p>Enter a certificate ID to check validity.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <h3>Reach out for any questions or assistance</h3>
+        <p>🏢 Gandhi Nagar, Upper Worli, Mumbai – 400018</p>
+        <h3>Email</h3>
+        <p>💌 Email: <a href="mailto:support@prodigyinfotech.dev">support@prodigyinfotech.dev</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+   <div class="footer-content">
+      <p>© 2025 Prodigy InfoTech | All rights reserved.| Made with ❤️ for learners.</p>
+      <p>Gandhi Nagar, Upper Worli, Mumbai – 400018</p>
+      <p>💌 Email: <a href="mailto:support@prodigyinfotech.dev"> support@prodigyinfotech.dev</a></p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/prodigy_infotech/">🏞️<i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/prodigy-infotech/posts/?feedView=all">🔗<i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://t.me/prodigy_infotech">✈️<i class="fa-brands fa-telegram"></i></a>
+        <a href="https://x.com/prodigy_infot">🐦<i class="fa-brands fa-twitter"></i></a>
+      </div>
+        <div class="footer-dropdown">
+      <label for="footer-switch" style="color: white; margin-right: 8px;">Theme:</label>
+      <select id="footer-switch" onchange="handleFooterSwitch(this)">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </div>
+  </div>
+  </footer>
+
+  <script src="script.js"> </script>
+</body>
+</html>
+
